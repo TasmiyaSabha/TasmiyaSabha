@@ -1,0 +1,11 @@
+﻿winner
+------------------------------
+Hannes Alfen
+Lois Neel
+dennis gabor
+Johannes Georg Bednorz
+
+(4 rows affected)
+
+
+Completion time: 2022-09-06T19:25:04.1000767+05:30

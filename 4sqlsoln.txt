@@ -1,0 +1,8 @@
+﻿yyear       ssubject
+----------- ------------------------------
+1971        physics
+
+(1 row affected)
+
+
+Completion time: 2022-09-06T19:29:09.1171526+05:30
