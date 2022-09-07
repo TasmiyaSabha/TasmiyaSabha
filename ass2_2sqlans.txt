@@ -1,0 +1,9 @@
+﻿name                           city
+------------------------------ ------------------------------
+Nail knite                     paris
+ mc lyon                       paris
+
+(2 rows affected)
+
+
+Completion time: 2022-09-07T16:05:59.3477040+05:30

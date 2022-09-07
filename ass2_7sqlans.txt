@@ -1,0 +1,9 @@
+﻿salesmanid  name                           city                           commision
+----------- ------------------------------ ------------------------------ ----------------------
+5001        James Hoog                     New York                       0.15
+5002        Nail knite                     paris                          0.13
+
+(2 rows affected)
+
+
+Completion time: 2022-09-07T19:16:00.9544575+05:30

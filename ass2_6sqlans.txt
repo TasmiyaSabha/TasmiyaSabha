@@ -1,0 +1,11 @@
+﻿salesmanid  name                           city                           commision
+----------- ------------------------------ ------------------------------ ----------------------
+5003         lauson hen                                                   0.13
+5005        pit alex                       london                         0.11
+5006         mc lyon                       paris                          0.14
+5007        paul adam                      rome                           0.13
+
+(4 rows affected)
+
+
+Completion time: 2022-09-07T19:43:25.5213027+05:30
