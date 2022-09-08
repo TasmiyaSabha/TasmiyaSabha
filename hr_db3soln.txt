@@ -1,0 +1,27 @@
+﻿first_name           last_name                 employee_id
+-------------------- ------------------------- ---------------------------------------
+Steven               King                      100
+Neena                Kochhar                   101
+Lex                  De Haan                   102
+Nancy                Greenberg                 108
+Den                  Raphaely                  114
+John                 Russell                   145
+Karen                Partners                  146
+Alberto              Errazuriz                 147
+Gerald               Cambrault                 148
+Eleni                Zlotkey                   149
+Peter                Tucker                    150
+Janette              King                      156
+Clara                Vishney                   162
+Lisa                 Ozer                      168
+Harrison             Bloom                     169
+Tayler               Fox                       170
+Ellen                Abel                      174
+Michael              Hartstein                 201
+Hermann              Baer                      204
+Shelley              Higgins                   205
+
+(20 rows affected)
+
+
+Completion time: 2022-09-08T19:18:00.2063297+05:30

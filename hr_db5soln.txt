@@ -1,0 +1,32 @@
+﻿first_name           last_name                 department_id                           salary
+-------------------- ------------------------- --------------------------------------- ---------------------------------------
+Steven               King                      90                                      14583.26
+Bruce                Ernst                     60                                      6000.00
+Diana                Lorentz                   60                                      4200.00
+Luis                 Popp                      100                                     6900.00
+Karen                Colmenares                30                                      2500.00
+Shanta               Vollman                   50                                      6500.00
+James                Marlow                    50                                      2500.00
+TJ                   Olson                     50                                      2100.00
+Joshua               Patel                     50                                      2500.00
+Peter                Vargas                    50                                      2500.00
+Peter                Tucker                    80                                      10000.00
+Oliver               Tuvault                   80                                      7000.00
+Janette              King                      80                                      10000.00
+Sarath               Sewall                    80                                      7000.00
+Harrison             Bloom                     80                                      10000.00
+Sundita              Kumar                     80                                      6100.00
+Kimberely            Grant                     0                                       7000.00
+Martha               Sullivan                  50                                      2500.00
+Nandita              Sarchand                  50                                      4200.00
+Randall              Perkins                   50                                      2500.00
+Jennifer             Whalen                    10                                      4400.00
+Pat                  Fay                       20                                      6000.00
+Susan                Mavris                    40                                      6500.00
+Hermann              Baer                      70                                      10000.00
+William              Gietz                     110                                     8300.00
+
+(25 rows affected)
+
+
+Completion time: 2022-09-08T19:18:23.8954226+05:30
