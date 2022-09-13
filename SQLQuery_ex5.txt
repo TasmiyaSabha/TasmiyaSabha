@@ -1,0 +1,40 @@
+
+/*q1*/
+select h.purchaseorderid,h.orderdate,h.totaldue,i.name as vendorname
+from Purchasing.PurchaseOrderHeader as h
+join Purchasing.Vendor as i
+on i.BusinessEntityID=h.vendorid 
+where (orderdate >='2013') and( totaldue>$500);
+
+ /*q2*/
+
+select h.purchaseorderid,h.orderdate,h.totaldue,i.name as vendorname,
+PrevOrderFromVendorAmt=lag(totaldue,1)over(partition by vendorid order by h.purchaseorderid)
+from Purchasing.PurchaseOrderHeader as h
+join Purchasing.Vendor as i
+on i.BusinessEntityID=h.vendorid 
+where (orderdate >=' 2013') and( totaldue>$500);
+ 
+ /*q3*/
+select h.purchaseorderid,h.orderdate,h.totaldue,i.name as vendorname,
+NextOrderByEmployeeVendor=lead(i.Name,1) over(partition by employeeid  order by h.purchaseorderid)
+from Purchasing.PurchaseOrderHeader as h
+join Purchasing.Vendor as i
+on i.BusinessEntityID=h.vendorid 
+where (orderdate >=' 2013') and( totaldue>$500);
+ 
+ /*q4*/
+select h.purchaseorderid,h.orderdate,h.totaldue,i.name as vendorname,
+NextOrderByEmployeeVendor=lead(i.Name,1) over(partition by employeeid  order by h.purchaseorderid),
+Next2OrderByEmployeeVendor=lead(i.name,2) over(partition by employeeid  order by h.purchaseorderid)
+from Purchasing.PurchaseOrderHeader as h
+join Purchasing.Vendor as i
+on i.BusinessEntityID=h.vendorid 
+where (orderdate >=' 2013') and( totaldue>$500);
+
+
+ 
+ 
+
+ 
+ 
